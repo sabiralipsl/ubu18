@@ -90,9 +90,9 @@ def install(rType="MAIN"):
 def update(rType="MAIN"):
     if rType == "UPDATE":
         printc("Enter the link of release_xyz.zip file:", col.WARNING)
-        rlink = raw_input('Example: https://lofertech.com/xui/release_22f.zip\n\nNow enter the link:\n\n')
+        rlink = raw_input('Example: https://github.com/sabiralipsl/xtreamblackmods-ubuntu24.04-2025/releases/download/xtreamblack/release_22f.zip\n\nNow enter the link:\n\n')
     else:
-        rlink = "https://lofertech.com/xui/release_22f.zip"
+        rlink = "https://github.com/sabiralipsl/xtreamblackmods-ubuntu24.04-2025/releases/download/xtreamblack/release_22f.zip"
         printc("Installing Admin Panel")
     hdr = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36',
        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
@@ -232,8 +232,9 @@ def modifyNginx():
 if __name__ == "__main__":
     printc("Xtream UI - Installer Mirror", col.OKGREEN, 2)
     print "%s â”‚ NOTE: this is a forked mirror of original installer from emre1393/xtream-ui.com %s" % (col.OKGREEN, col.ENDC)
-    print "%s â”‚ Paid Service On Telegram @lofertech & Youtube = LoferTech Official. %s" % (col.OKGREEN, col.ENDC)
-    print "%s â”‚ For more information visit lofertech.com %s" % (col.OKGREEN, col.ENDC)
+    print "%s â”‚ Paid Service On Telegram @sabir ali & Youtube = l
+    sabir ali. %s" % (col.OKGREEN, col.ENDC)
+    print "%s â”‚ For more information visit sabirali.com %s" % (col.OKGREEN, col.ENDC)
     print " "
     rType = raw_input("  Installation Type [MAIN, LB, UPDATE]: ")
     print " "
